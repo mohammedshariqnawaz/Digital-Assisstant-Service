@@ -34,7 +34,7 @@ The service incorporates validation and global exception handling to ensure data
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/mohdshariqnawaz/digital-assistant-service.git
+   git clone https://github.com/mohammedshariqnawaz/Digital-Assisstant-Service.git
    ```
 2. Running the Application(Using an IDE)
    - Import the Project
@@ -47,14 +47,14 @@ The service incorporates validation and global exception handling to ensure data
 3. **Accessing the Application**
 
    Interactive API documentation is available via Swagger UI to explore the API endpoints directly from your browser.
-   `http://localhost:8080/swagger-ui/index.html`
+   http://localhost:8080/swagger-ui/index.html
 
 ## API Endpoints
 The application runs on http://localhost:8080. Below are the available endpoints:
 
 1.   **Create a New Assistant**
 
-* **Endpoint:** `POST /api/v1/assistants`
+* **Endpoint:** `POST /api/assistant`
 * **Description:** Adds a new digital assistant.
 * **Request Body:**`{
 "name": "JouleAssistant",
